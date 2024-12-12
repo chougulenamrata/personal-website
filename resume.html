@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="bio.html">Bio</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Resume</h1>
+    <table id="resume-table">
+        <thead>
+            <tr>
+                <th>Work Experience</th>
+                <th>Education</th>
+                <th>Skills</th>
+            </tr>
+        </thead>
+        <tbody id="resume-body">
+            <!-- add table rows here -->
+            <tr>
+                <td>Fresher.</td>
+                <td>Bachelor of Engineering in Computer Science, Visvesvaraya Technological University (2022-2026)</td>
+                <td>Programming languages: C Programming, Python; Technologies: HTML, CSS, Javascript; Tools: Git.</td>
+            </tr>
+            <!-- add more rows here -->
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
+
+    <style scoped>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-spacing: 0;
+            border-style: solid;
+            border-width: 1px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: #fff;
+            padding: 10px;
+            border-bottom: 2px solid #4CAF50;
+        }
+
+        td {
+            padding: 10px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #resume-body tr:nth-child(even) {
+            background-color: #f7f7f7;
+        }
+    </style>
+
+    <script src="script.js"></script>
+
+</body>
